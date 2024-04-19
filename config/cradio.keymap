@@ -35,13 +35,13 @@
     combos {
         compatible = "zmk,combos";
 
-        right_bracket {
+        right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
-        left_bracket {
+        left_par {
             bindings = <&kp LS(LEFT_PARENTHESIS)>;
             key-positions = <6 7>;
             layers = <0>;
