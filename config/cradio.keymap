@@ -70,6 +70,18 @@
             key-positions = <26 27>;
             layers = <0>;
         };
+
+        asterisk {
+            bindings = <&kp LS(N8)>;
+            key-positions = <12 13>;
+            layers = <1>;
+        };
+
+        ampersand {
+            bindings = <&kp LS(N7)>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -86,10 +98,10 @@
 
         right_layer {
             bindings = <
-&kp NUMBER_6  &kp N7     &kp N8  &kp N9           &kp N0                  &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp PRINTSCREEN  &kp INS
-&kp N1        &kp N2     &kp N3  &kp N4           &kp N5                  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &kp DEL
-&caps_word    &kp EQUAL  &kp N8  &kp N9           &kp N0                  &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP      &kp END          &kp BACKSLASH
-                                 &mt LCTRL ENTER  &mt LSHIFT BACKSPACE    &trans          &trans
+&kp NUMBER_6  &kp N7     &kp N8     &kp N9           &kp N0                  &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp PRINTSCREEN  &kp INS
+&kp N1        &kp N2     &kp N3     &kp N4           &kp N5                  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &kp DEL
+&caps_word    &kp EQUAL  &kp EQUAL  &kp MINUS        &kp DOT                 &kp HOME        &kp PAGE_DOWN      &kp PAGE_UP      &kp END          &kp BACKSLASH
+                                    &mt LCTRL ENTER  &mt LSHIFT BACKSPACE    &trans          &trans
             >;
         };
 
